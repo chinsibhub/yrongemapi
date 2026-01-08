@@ -14,11 +14,6 @@ try:
     WP_USER = st.secrets["WP_USER"]
     WP_APP_PASSWORD = st.secrets["WP_APP_PASSWORD"]
 
-    # GEMINI_API_KEY = "AIzaSyDjXLOOgmWZC6WXAy1yQp1P3cIbSD_HR60"
-    # WP_URL = "https://morroc.net/wp-json/wp/v2/posts"
-    # WP_USER = "yronmorroc"
-    # WP_APP_PASSWORD = "RqUy LeS9 4BVv eRZw QvHT otH8"
-
     # ใช้ตัว 2.5 Flash ตามที่ตกลงกัน (หรือจะเปลี่ยนเป็น models/gemini-2.0-flash-exp ก็ได้)
     MODEL_NAME = "models/gemini-2.5-flash" 
 except FileNotFoundError:
