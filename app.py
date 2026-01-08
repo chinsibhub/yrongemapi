@@ -165,16 +165,16 @@ if st.button("🚀 วิเคราะห์และส่งบทควา�
             # แทนที่รูปที่ 4
             if img4_url:
                 html_img4 = f'<div class="wp-block-image"><figure class="aligncenter"><img src="{img4_url}" alt="สถิติเจ้าบ้าน วิเคราะห์บอล" /></figure></div>'
-                final_content = final_content.replace("[แทรกรูปที่ 4]", html_img4)
+                final_content = final_content.replace("[แทรกรูปเจ้าบ้าน]", html_img4)
             else:
-                final_content = final_content.replace("[แทรกรูปที่ 4]", "") # ลบออกถ้าไม่มี
+                final_content = final_content.replace("[แทรกรูปเจ้าบ้าน]", "") # ลบออกถ้าไม่มี
 
             # แทนที่รูปที่ 5
             if img5_url:
                 html_img5 = f'<div class="wp-block-image"><figure class="aligncenter"><img src="{img5_url}" alt="สถิติทีมเยือน วิเคราะห์บอล" /></figure></div>'
-                final_content = final_content.replace("[แทรกรูปที่ 5]", html_img5)
+                final_content = final_content.replace("[แทรกรูปทีมเยือน]", html_img5)
             else:
-                final_content = final_content.replace("[แทรกรูปที่ 5]", "") # ลบออกถ้าไม่มี
+                final_content = final_content.replace("[แทรกรูปทีมเยือน]", "") # ลบออกถ้าไม่มี
 
             # --- ขั้นตอนที่ 5: ส่งเข้า WordPress ---
             status_box.write("🚀 กำลังยิงบทความขึ้นเว็บ Morroc.net...")
